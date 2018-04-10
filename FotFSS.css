@@ -1,0 +1,40 @@
+html
+{	
+	font-size: 25px;
+	color: white;
+	background-image: url(Images/BGSnow.png);
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position: top;
+	
+}
+h1
+{
+	font-size: 42px;	
+	color: white;
+}
+table
+{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid white;
+	caption-side: bottom;
+}
+td,th
+{
+	border: thin dotted gray;
+	padding: 5px;
+}
+caption
+{	
+	padding-top: 8px;
+}
+a
+{
+	font-size: 32px;
+}
+li
+{
+	list-style-type: disc;
+}
