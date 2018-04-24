@@ -1,7 +1,6 @@
 html
 {
-	background-color: black;
-	
+	background-color: black;	
 }
 #Index
 {
@@ -17,39 +16,40 @@ html
 	background-size: 100%;	
 	background-position: top;
 }
+#HowToPlayPage
+{
+	background-image: url(../Images/DarkForestHTP.png);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
+}
+#MembersPage
+{
+	background-image: url(../Images/RenderFinal.png);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
+	color: white;
+}
 body
 {			
 	
-}
-h1
-{
-		
 }
 #InformationButton
 {
 	margin-top: 15.5%;	
 }
-
-#row3
-{
-	
-}
 #SirApple
 {
-	 
     max-width: 20%; 
     max-height: 20%;
 }
 #PumpkinGolem
 {
-	 
     max-width: 20%; 
     max-height: 20%;
 }
-.Button
-{
-	
-}
+
 .Buttons
 {	 
 	display: flex;		
@@ -58,12 +58,9 @@ h1
     max-height: 20%;
 	
 }
-#TwitterButton
-{
-	
-}
 table
 {
+	margin-top: 10%;
 	font-size: 25px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -78,10 +75,6 @@ td,th
 caption
 {	
 	padding-top: 8px;
-}
-a
-{
-	
 }
 li
 {
