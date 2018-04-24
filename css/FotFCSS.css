@@ -1,21 +1,35 @@
 html
 {
 	background-color: black;
+	
+}
+#Index
+{
+	background-image: url(../Images/DarkForestSignSample.png);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
+}
+#InformationPage
+{
+	background-image: url(../Images/BGSnow2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
 }
 body
 {			
-	background-image: url(../Images/DarkForestSign.png);
-	background-repeat: no-repeat;
-	background-size: 100%;	
+	
 }
 h1
 {
 		
 }
-#informationButton
+#InformationButton
 {
-	margin-top: 16%;	
+	margin-top: 15.5%;	
 }
+
 #row3
 {
 	
@@ -32,16 +46,17 @@ h1
     max-width: 20%; 
     max-height: 20%;
 }
-.button
+.Button
 {
-	display: flex;
-	justify-content: center;
 	
 }
-.buttons
+.Buttons
 {	 
+	display: flex;		
+	margin-top: 2%;
     max-width: 20%; 
     max-height: 20%;
+	
 }
 #TwitterButton
 {
