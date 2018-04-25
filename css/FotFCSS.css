@@ -49,14 +49,20 @@ body
     max-width: 20%; 
     max-height: 20%;
 }
-
-.Buttons
+.Button
 {	 
-	display: flex;		
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 	margin-top: 2%;
     max-width: 20%; 
     max-height: 20%;
 	
+}
+#HowToPlayText
+{
+	color: red;	
+	margin-top: 5%;
 }
 table
 {
