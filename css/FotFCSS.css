@@ -2,30 +2,24 @@ html
 {
 	background-color: black;	
 }
-#Index
+.MainBackground
 {
-	background-image: url(../Images/DarkForestSignSample.png);
+	background-image: url(../Images/DarkForestSample.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;	
 	background-position: top;
 }
 #InformationPage
 {
-	background-image: url(../Images/BGSnow2.png);
-	background-repeat: no-repeat;
-	background-size: 100%;	
-	background-position: top;
-}
-#HowToPlayPage
-{
-	background-image: url(../Images/DarkForestHTP.png);
+	color: white;
+	background-image: url(../Images/SnowForest.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;	
 	background-position: top;
 }
 #MembersPage
 {
-	background-image: url(../Images/RenderFinal.png);
+	background-image: url(../Images/SmallTown.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;	
 	background-position: top;
@@ -37,7 +31,17 @@ body
 }
 #InformationButton
 {
-	margin-top: 15.5%;	
+	margin-top: 6%;	
+}
+.InformationParagraph
+{
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 10px;
+	font-size: 20px;
 }
 #SirApple
 {
@@ -49,27 +53,42 @@ body
     max-width: 20%; 
     max-height: 20%;
 }
-.Button
-{	 
+#FruitoftheFallenTitle
+{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	
+	margin-top: 6%;
+}
+.IndexButton
+{	 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
 	margin-top: 2%;
     max-width: 20%; 
     max-height: 20%;
 	
 }
+#TeamButton
+{
+	max-width: 15%; 
+    max-height: 15%;
+}
+#HomeButton
+{
+	max-width: 10%; 
+    max-height: 5%;
+}
 #HowToPlayText
 {
-	color: red;	
-	margin-top: 5%;
-	margin-left: auto;
-    margin-right: auto;
+	color: green;	
+	margin-top: 4%;
+	
 }
 table
 {
-	margin-top: 10%;
+	margin-top: 1%;
 	font-size: 25px;
 	margin-left: 20px;
 	margin-right: 20px;
