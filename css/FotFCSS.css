@@ -1,57 +1,7 @@
+/* General Use Stuff */
 html
 {
 	background-color: black;	
-}
-.MainBackground
-{
-	background-image: url(../Images/DarkForestSample.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;	
-	background-position: top;
-}
-#InformationPage
-{
-	color: white;
-	background-image: url(../Images/SnowForest.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;	
-	background-position: top;
-}
-#MembersPage
-{
-	background-image: url(../Images/SmallTown.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;	
-	background-position: top;
-	color: white;
-}
-body
-{			
-	
-}
-#InformationButton
-{
-	margin-top: 6%;	
-}
-.InformationParagraph
-{
-	border-color: white;
-	border-width: 2px;
-	border-style: solid;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding: 10px;
-	font-size: 20px;
-}
-#SirApple
-{
-    max-width: 20%; 
-    max-height: 20%;
-}
-#PumpkinGolem
-{
-    max-width: 20%; 
-    max-height: 20%;
 }
 #FruitoftheFallenTitle
 {
@@ -60,6 +10,23 @@ body
     margin-right: auto;
 	margin-top: 6%;
 }
+.MainBackground
+{
+	background-image: url(../Images/DarkForestSample.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
+}
+#HomeButton
+{
+	max-width: 10%; 
+    max-height: 5%;
+}
+/*Index page*/
+#InformationButton
+{
+	margin-top: 5%;	
+}
 .IndexButton
 {	 
 	display: block;
@@ -67,24 +34,57 @@ body
     margin-right: auto;	
 	margin-top: 2%;
     max-width: 20%; 
-    max-height: 20%;
-	
+    max-height: 20%;	
+}
+/* Information Page */
+#InformationPage
+{
+	color: white;
+	background-image: url(../Images/SnowForest.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
+}
+.InformationParagraph
+{
+	border-color: white;
+	border-width: 6px;
+	border-style: double;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 10px;
+	font-size: 20px;
 }
 #TeamButton
 {
 	max-width: 15%; 
     max-height: 15%;
 }
-#HomeButton
+/* How to Play Page */
+#AppleTalkBox
 {
-	max-width: 10%; 
-    max-height: 5%;
+	display: inline-block;
+	background-color: #5c5;	
+	border-color: green;
+	border-width: 10px;
+	border-style: double;	
+	padding: 10px;	
+	opacity: 0.6;		
 }
-#HowToPlayText
+#AppleSpeak
+{	
+	color: black;
+	font-size: 50px;
+	opacity: 1.0;
+}
+/* Members Page */
+#MembersPage
 {
-	color: green;	
-	margin-top: 4%;
-	
+	background-image: url(../Images/SmallTown.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	background-position: top;
+	color: white;
 }
 table
 {
@@ -99,12 +99,4 @@ td,th
 {
 	border: thin dotted gray;
 	padding: 5px;
-}
-caption
-{	
-	padding-top: 8px;
-}
-li
-{
-	list-style-type: disc;
 }
