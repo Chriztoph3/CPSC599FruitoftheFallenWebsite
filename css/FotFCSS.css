@@ -20,9 +20,16 @@ html
 	background-position: top;
 }
 #HomeButton
-{
+{	
 	max-width: 10%; 
     max-height: 5%;
+}
+.Button
+{
+	display: block;
+	max-width: 20%; 
+    max-height: 20%;
+	
 }
 /*Index page*/
 #InformationButton
@@ -30,13 +37,14 @@ html
 	margin-top: 5%;	
 }
 .IndexButton
-{	 
-	display: block;
-    margin-left: auto;
-    margin-right: auto;	
+{   
+	margin-left: auto;
+    margin-right: auto;
 	margin-top: 2%;
-    max-width: 20%; 
-    max-height: 20%;	
+}
+#VideoButton
+{
+	min-width: 20%;
 }
 /* Information Page */
 #InformationPage
@@ -58,10 +66,11 @@ html
 	font-size: 20px;
 }
 #TeamButton
-{
-	max-width: 15%; 
-    max-height: 15%;
+{	
+	margin-bottom: 2%;
+	min-width: 20%;
 }
+
 /* How to Play Page */
 #AppleTalkBox
 {
@@ -85,8 +94,8 @@ html
     margin-left: auto;
     margin-right: auto;
 	margin-top: 3%;
-	max-width: 9%; 
-    max-height: 9%;
+	max-width: 8%; 
+    max-height: 3%;
 }
 #AppleButton
 {

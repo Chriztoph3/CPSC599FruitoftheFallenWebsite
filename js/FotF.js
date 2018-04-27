@@ -24,7 +24,7 @@ function handleNextButton()
 	}
 	else if(i === 5){
 		var appleSpeak = document.getElementById("AppleSpeak");
-		appleSpeak.innerHTML = "I need your help in sending him back to the soil from whence he grew!";
+		appleSpeak.innerHTML = "I need your help in sending him back to the soil from whence he sprouted!";
 	}
 	else if(i === 6){
 		var appleSpeak = document.getElementById("AppleSpeak");
@@ -132,16 +132,7 @@ function handleNextButton()
 		appleSpeak.innerHTML = "Well, I'll be here until you make up your mind! Farewell and good hunting!";
 	}
 	else if(i === 32){
-		i = -1;			
-		var nextButton = document.getElementById("NextButton");
-		nextButton.style.display = "none";
-		var appleHead = document.getElementById("SirAppleHead");
-		appleHead.style.display = "none";
-		var appleSpeak = document.getElementById("AppleSpeak");
-		appleSpeak.style.display = "none";
-		var appleTalkBox = document.getElementById("AppleTalkBox");
-		appleTalkBox.style.display = "none";
-		var wallPaper = document.getElementById("HowToPlayPage");
+		i = -1;
 		window.location.href = "Index.html";
 	}
 	i++;
